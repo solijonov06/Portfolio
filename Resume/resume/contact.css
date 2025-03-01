@@ -1,0 +1,115 @@
+.contact{
+    padding: 6.25rem 1.25rem;
+}
+
+textarea,input{
+ width: 100%;   
+ padding: 0.87rem;
+ margin-bottom: 0.625rem;
+ margin-top: 0.625rem;
+ border: 1px solid rgb(210, 210, 233);
+ border-radius: 0.312rem;
+ 
+ padding-left: 1.125rem;
+ font-size: 0.93rem;
+ background: transparent;
+
+}
+
+.resize{ resize: none;}
+
+textarea:focus,
+input:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.half-row{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contact__firstname{
+    padding-right: 1.15rem;
+}
+
+.contact__email{
+    padding-left:1.25rem;
+}
+
+.contact__send{
+    margin-top: 1.875rem;
+}
+
+
+
+/*Foooter section styles*/
+.footer{
+    padding: 100px 0;
+    background-color: #021017;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-brand img{
+    width: 120px;
+}
+
+.footer-nav__items{
+    margin-bottom: 50px;
+}
+
+.footer-nav__item{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer-nav__item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-socials{
+    list-style: none;
+}
+
+.footer-social{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 16px;
+    margin-right: 12px;
+}
+.footer-social:hover{
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 0%);
+    background-size: 198% auto;
+}
+
+.footer-social:hover i{
+    color: #ffffff;
+}
+
+.footer-social a{
+    color: #021017;
+}
+.footer-text{
+    color:  #797979;
+}
+
+
+@media only screen and (max-width:991px)
+{
+    .half-row{
+        width: 100%;
+    }
+    .contact__email,
+    .contact__firstname{
+        padding: 0;
+    }
+}
